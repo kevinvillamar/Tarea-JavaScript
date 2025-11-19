@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo JavaScript</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="contenedor-flex">
+        <div class="bloque">
+            <h1>Seleccionar un color</h1>
+            <select id="selectColor">
+                <option value="">Seleccione</option>
+                <option value="red">Rojo</option>
+                <option value="green">Verde</option>
+                <option value="blue">Azul</option>
+            </select>
+            <button onclick="mostrarColor()">Mostrar</button>
+            <div id="cuadroColor"></div>
+        </div>
+
+        <div class="bloque">
+            <h1>Seleccionar una imagen</h1>
+            <select id="selectImagen">
+                <option value="">Seleccione</option>
+                <option value="Carro">Carro</option>
+                <option value="Moto">Moto</option>
+                <option value="Bicicleta">Bicicleta</option>
+            </select>
+            <button onclick="mostrarImagen()">Mostrar</button>
+
+            <div id="cuadroImagen"></div>
+        </div>
+    </div>
+</body>
+</html>
